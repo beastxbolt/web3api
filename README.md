@@ -28,5 +28,5 @@ This API has the following features:
    ```python main.py```
 - Uvicorn will start running on ip ``127.0.0.1`` and port ``8000``
 - If you want the GUI documentation, go to ``127.0.0.1:8000/docs``
-- Swagger UI and ReDoc documentation served at ``/docs`` can turned off with ``app = FastAPI(openapi_url=None)``, ``app = FastAPI(redoc_url=None)`` respectively
+- Swagger UI and ReDoc documentation served at ``/docs`` can turned off with ``app = FastAPI(docs_url=None, redoc_url=None)``
 - Authenticate yourself using Bearer Auth and send requests to the API
