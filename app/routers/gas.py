@@ -11,7 +11,7 @@ router = APIRouter()
 
 @router.get("/gas_price")
 async def gas_price(network):
-    '''Get standard gas price in Gwei. (Supports only legacy networks)'''
+    '''Get standard gas price in Gwei.'''
 
     if network.lower() not in networks:
         return JSONResponse(content={"error": "Invalid network or not supported"}, status_code=400)
