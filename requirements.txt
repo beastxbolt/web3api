@@ -1,0 +1,6 @@
+fastapi
+slowapi
+uvicorn
+pymongo
+pydantic
+web3
