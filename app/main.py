@@ -4,8 +4,6 @@ from fastapi.encoders import jsonable_encoder
 from fastapi.exceptions import RequestValidationError
 import uvicorn
 from web3 import Web3
-import web3
-import json
 
 from routers import transaction, block, gas, account, encode_decode, hashing
 from dependencies import get_api_key, api_key_auth
