@@ -11,7 +11,6 @@ from internal.networks import networks
 
 from slowapi import Limiter, _rate_limit_exceeded_handler
 from slowapi.errors import RateLimitExceeded
-from slowapi.util import get_remote_address
 from slowapi.middleware import SlowAPIMiddleware
 
 from pydantic import ValidationError
@@ -76,4 +75,4 @@ async def to_checksum_address(address):
 
 
 if __name__ == "__main__":
-    uvicorn.run("main:app", reload=True)
+    uvicorn.run("main:app")
