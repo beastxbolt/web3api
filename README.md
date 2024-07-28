@@ -11,7 +11,7 @@ This API has the following features:
 4. Has Bearer Authentication feature for users
 5. Handles exceptions and returns errors promptly
 6. Can customize and add more networks in app -> internal -> networks.py
-   (Currently only EVM compatible networks like polygon, binance smart chain work with the library)
+   (Currently only EVM compatible networks like Ethereum, Polygon, Binance Smart Chain work with the library)
 
 ## Prerequisites
 - Python 3.x installed on your system
